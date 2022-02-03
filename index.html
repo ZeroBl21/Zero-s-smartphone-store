@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <!-- NavBar -->
+        <header>
+          <img class="logo" src="./assets/ZeroLogo.jpg" alt="Logo" />
+          <nav class="nav">
+            <ul class="nav__links">
+              <li><a href="./index.html">Home</a></li>
+              <li>
+                <a href="https://zerobl21.github.io/Portfolio/">Portfolio</a>
+              </li>
+              <li>
+                <a class="cta" href="https://github.com/ZeroBl21/curso-p-javascript">Repository</a> 
+              </li>
+            </ul>
+          </nav>
+          <img id="menu" src="https://img.icons8.com/ios-filled/50/000000/menu--v3.png"/>
+        </header>
+
+        <main class="main-content">
+          <p>Consigue tu nuevo</p>
+          <h1>SmartPhone!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, corrupti voluptate magni vitae molestias optio
+            quibusdam. Corporis nostrum reiciendis assumenda est, natus sed
+            dolorem voluptatum vero aperiam possimus recusandae ex?
+          </p>
+        </main>
+
+        <aside class="aside-content">
+          <div class="cont-yellow"></div>
+          <h2>Motorola Edge 20</h2>
+          <img src="./assets/Motorola-Edge-20.png" alt="Motorola-Edge-20" />
+        </aside>
+
+        <footer class="footer">
+          <div id="button">
+            <img src="./assets/LG-Stylo-6.png" alt="LG-Stylo-6" />
+          </div>
+
+          <div id="button">
+            <img src="./assets/iphone-13-gold.png" alt="iphone-13-gold" />
+          </div>
+
+          <div id="button">
+            <img src="./assets/Galaxy-s21.png" alt="Galaxy-s21" />
+          </div>
+        </footer>
+      </div>
+
+      <!-- Loader -->
+      <section class="loader">
+        <div class="loader__content"></div>
+        <div class="loader__content"></div>
+        <div class="loader__content"></div>
+      </section>
+
+      <!-- Modal -->
+
+      <section class="modal hidden">
+        <div class="modal__content">
+          <img
+            id="btn-close"
+            src="https://img.icons8.com/windows/32/000000/macos-close.png"
+            alt=""
+          />
+
+          <div class="modal__content--slider">
+            <input type="radio" name="slider-1" id="radio-1" />
+            <input type="radio" name="slider-1" id="radio-2" />
+            <input type="radio" name="slider-1" id="radio-3" />
+
+            <div class="cards">
+              <label for="radio-1" class="card" id="card-1">
+                <img src="./assets/iphone-13-blue.png" alt="iphone-13-blue" />
+              </label>
+
+              <label for="radio-2" class="card" id="card-2">
+                <img src="./assets/iphone-13-green.png" alt="iphone-13-green" />
+              </label>
+
+              <label for="radio-3" class="card" id="card-3">
+                <img src="./assets/iphone-13-pink.png" alt="iphone-13-pink" />
+              </label>
+            </div>
+          </div>
+
+          <div class="modal-btn">
+            <input type="button" value="Lo Quiero!" />
+          </div>
+        </div>
+      </section>
+
+      <script src="./src/main.js"></script>
+    </div>
+  </body>
+</html>
